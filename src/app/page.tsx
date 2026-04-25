@@ -12,7 +12,7 @@ export default function Home() {
         <div className="bg-secondary/10 absolute right-0 bottom-0 h-125 w-125 max-w-full rounded-full blur-[120px]" />
       </div>
 
-      <div className="flex-1 flex flex-col items-center justify-center w-full">
+      <div className="flex w-full flex-1 flex-col items-center justify-center">
         <div className="animate-in fade-in slide-in-from-bottom-4 relative z-10 w-full max-w-4xl space-y-6 duration-1000 sm:mt-0 sm:space-y-8">
           <LiveEpoch />
 
@@ -23,7 +23,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="relative z-10 flex justify-center mt-8">
+      <div className="relative z-10 mt-8 flex justify-center">
         <ThemeToggle />
       </div>
     </main>
